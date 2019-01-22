@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sitename</title>
+	<link rel="icon" type="image/png" href="images/logo.png" data-csp="header-favicon">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+<!-- header -->
+<header class="header" data-smooth-scroll>
+	<div class="wrapper">
+		<div class="main-logo">
+			<a class="main-logo__link" href="#home">
+				<img src="images/logo.png" alt="logo">
+				<span>Sitename</span>
+			</a>
+		</div>
+		<nav class="nav">
+			<ul class="main-navigation">
+				<li class="main-navigation__item">
+					<a class="main-navigation__link" href="#home">home</a>
+				</li>
+				<li class="main-navigation__item">
+					<a class="main-navigation__link" href="#services">Services</a>
+				</li>
+				<li class="main-navigation__item">
+					<a class="main-navigation__link" href="#who-we-are">Who We Are</a>
+				</li>
+				<li class="main-navigation__item">
+					<a class="main-navigation__link" href="#contact">contact</a>
+				</li>
+			</ul>
+			<button class="hamburger">
+				<span class="hamburger__element"></span>
+			</button>
+		</nav>
+	</div>
+</header>
+<!-- /header -->
+<main>
+<!-- home -->
+	<section class="home" id="home" data-smooth-scroll>
+		<div class="row align-center-middle" style="min-height: 100vh;">
+			<div class="align-center text-center">
+				<h1 class="home__title small-12 columns margin-bottom-2">Sitename, Your Home For VPN And Media Library Services</h1>
+				<h5 class="home__sub-title small-12 columns margin-bottom-2">Granting the best in internet privacy and security with VPN services as well as a superior online entertainment media platform.</h5>
+				<div class="flex-container align-center">
+					<a href="#contact" class="btn">Contact us</a>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- home -->
+<!-- services -->
+	<section class="services flex-container align-center padding-top-3 padding-bottom-3" id="services">
+		<div>
+			<h2 class="services__title small-12 columns text-center margin-bottom-2">Services</h2>
+			<ul class="services__list no-bullet row ">
+				<li class="services__item small-12 medium-4 columns flex-container">
+					<div class="small-2">
+						<img src="images/i-services-1.png" alt="icon">
+					</div>
+					<div class="small-10 padding-left-1">
+						<h4>Which Devices?</h4>
+						<p>All of them! Our software has been developed for Android, iOS, Mac, and PC.</p>
+					</div>					
+				</li>
+				<li class="services__item small-12 medium-4 columns flex-container">
+					<div class="small-2">
+						<img src="images/i-services-2.png" alt="icon">
+					</div>
+					<div class="small-10 padding-left-1">
+						<h4>What Advantages Do We Have?</h4>
+						<p>Our development team has worked hard to ensure that the software that we provide is the best that it can be, saving you time and effort whenever you use it. We have more benefits than other similar services, and we do it all for an affordable price.</p>
+					</div>
+				</li>
+				<li class="services__item small-12 medium-4 columns flex-container">
+					<div class="small-2">
+						<img src="images/i-services-3.png" alt="icon">
+					</div>
+					<div class="small-10 padding-left-1">
+						<h4>Easy As Pie!</h4>
+						<p>No more frustrating interface issues – with just a few clicks, you’re able to use our services with ease!</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+<!-- services -->
+<!-- who-we-are -->
+	<section class="about flex-container align-center-middle padding-top-3 padding-bottom-3" id="who-we-are">
+		<div class="row align-center">
+			<h2 class="small-12 columns text-center margin-bottom-2">Who We Are</h2>
+			<div class="small-12 row align-spaced">
+				<div class="small-12 medium-6 columns" data-smooth-scroll>
+					<h4 class="text-center margin-bottom-1">About Our Team</h4>
+					<p class="margin-bottom-2">We’ve worked hard to help you to get access to the best online VPN and media streaming services. We’ve committed ourselves to making our services accessible and easy to use.</p>
+					<div class="flex-container align-center">
+						<a href="#contact" class="btn margin-bottom-2">Contact us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- who-we-are -->
+<!-- contact -->
+<section class="contact padding-top-3 padding-bottom-3" id="contact">
+	<div class="row align-center">
+		<h2 class="small-12 columns text-center margin-bottom-2">Contact</h2>
+		<div class="small-12 medium-5 columns">
+			<h3 class="margin-bottom-1">Contact Our Team</h3>
+			<p class="margin-bottom-1">We’re here to help you with every part of the process, so call or email 24/7.</p>
+			<div class="contact__address flex-container" id="addressContainer">
+			</div>
+			<ul class="no-bullet">
+				<li class="contact__email flex-container"> 
+					<span>Email: <a class="email" href="mailto:support@sentivenlimited.com"> support@sentivenlimited.com</a></span>
+				</li>
+				<li class="contact__phone flex-container">
+					<span>Phone: <a class="email" href="tel:020 3151 4163"> 020 3151 4163</a></span>
+				</li>
+			</ul>
+		</div>
+		<div class="contact__form small-12 medium-7 columns">
+			<form class="form" id="contactForm" method="post" action="#">
+				<div class="form__group row">
+					<div class="form__input small-12 medium-6 column margin-bottom-1">
+						<input class="margin-0" type="text" name="name" placeholder="Your Name" required>
+					</div>
+					<div class="form__input small-12 medium-6 column margin-bottom-1">
+						<input class="margin-0" type="email" name="email" placeholder="Your Email" required>
+					</div>
+				</div>
+				<div class="form__group row">
+					<div class="form__textarea  small-12 column margin-bottom-1">
+						<textarea class="margin-0" name="message" rows="10" placeholder="Question / Comment" required></textarea>
+					</div>
+				</div>
+				<div class="flex-container column align-right padding-0">
+					<button class="btn"><span>Send message</span></button>
+				</div>
+				<p class="text-right" id="formMessage"></p>
+
+			</form>
+		</div>
+	</div>
+</section>
+<!-- contact -->
+</main>
+
+<!-- footer -->
+	<footer class="footer text-center">
+		<p class="margin-0 padding-1">
+			<script>
+				var date = new Date;
+				document.write("&copy; ", date.getFullYear(), " Sitename. All rights reserved");
+			</script>
+		</p>
+	</footer>
+<!-- footer -->
+<script src="js/app.min.js"></script>
+</body>
+</html>
